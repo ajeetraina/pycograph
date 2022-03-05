@@ -1,4 +1,4 @@
-# Pycograph - Building a Map of Your Python Project Using RedisGraph
+# Pycograph - Visualize Your Python Project Using RedisGraph
 
 [![PyPI version](https://badge.fury.io/py/pycograph.svg)](https://badge.fury.io/py/pycograph)
 ![Black](https://img.shields.io/badge/code%20style-black-000000.svg)
