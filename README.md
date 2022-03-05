@@ -1,4 +1,4 @@
-# Pycograph - Visualize Your Python Project Using RedisGraph
+# Pycograph - Visualize and Explore Your Python Codebase Using RedisGraph
 
 [![PyPI version](https://badge.fury.io/py/pycograph.svg)](https://badge.fury.io/py/pycograph)
 ![Black](https://img.shields.io/badge/code%20style-black-000000.svg)
