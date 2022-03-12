@@ -1,10 +1,17 @@
-version: '3'
 services:
+
   redis:
     image: redislabs/redismod
     ports:
-      - 6379:6379
+      - '6379:6379'
   redisinsight:
-    image: redislabs/redisinsight:latest
+    image: redislabs/redisinsight
     ports:
       - '8001:8001'
+    volumes:
+      - ./Users/ajeetraina/data/redisinsight:/db
+  pycograph:
+    build: .
+    volumes:
+      - .:/opt/compose
+    command: ["pycograph", "load", "--project-dir", "/opt/compose/", "--test-types" ]
