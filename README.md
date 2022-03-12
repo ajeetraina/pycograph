@@ -24,6 +24,39 @@ Pycograph creates a [RedisGraph](https://oss.redislabs.com/redisgraph/) model of
 
 ## Getting Started
 
+
+## Using Docker
+
+### Step 1. Clone the repository
+
+```
+git clone https://github.com/ajeetraina/pycograph
+```
+
+### Step 2. Download a sample Compose repository
+
+```
+git clone https://github.com/docker/compose
+```
+
+### Step 3. Run the Docker containers
+
+```
+docker-compose up -d
+```
+
+### Accessing RedisInsight
+
+
+
+Open https://localhost:8001 and connect to Redis database
+
+Follow https://pycograph.com/examples/
+
+
+
+## Without  Docker
+
 Requirements:
 
 * Python 3.8 or higher
